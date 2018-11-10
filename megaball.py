@@ -55,6 +55,7 @@ iterationNumber = 0
 time.sleep(5)
 
 while userWon == False:
+    time.sleep(0.001)
     myNumbers.clear()
 
     userNumbers, userMegaball = generateUserNumbers()
